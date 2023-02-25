@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --fs-h1 : 85px;
+    --fs-p : 15px;
+    --fs-btn : 12px;
+
+    --color-h1 : #3C3C3C;
+    --color-p : #646464;
+    
+    --bgc : #FFE1BF;
+
+    --p-container-ho : 10vw;
+    --p-container-ve : 10vw;
+}
+body{
+    background-color: var(--bgc);
+}
